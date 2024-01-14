@@ -15,7 +15,7 @@ def get_location():
     request_args_dict = request.args.to_dict()
     if len(request_args_dict.keys()) != 0:
         if 'city' in request_args_dict.keys():
-            tuple_url_extras = f"http://api.openweathermap.org/geo/1.0/direct?q={request_args_dict['city']}",f",{request_args_dict['state']}" if 'state' in request_args_dict.keys() else "",f",{request_args_dict['country']}" if 'country' in request_args_dict.keys() else "","&limit=5&appid={OPEN_WEATHER_API_KEY}"
+            tuple_url_extras = f"http://api.openweathermap.org/geo/1.0/direct?q={request_args_dict['city']}",f",{request_args_dict['state']}" if 'state' in request_args_dict.keys() else "",f",{request_args_dict['country']}" if 'country' in request_args_dict.keys() else "",f"&limit=1&appid={OPEN_WEATHER_API_KEY}"
             url = "".join(tuple_url_extras)
             res = requests.get(url)
             if res.status_code == 200:

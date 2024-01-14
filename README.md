@@ -21,7 +21,7 @@ Weather Application with AQI
 
 1. Run the PowerShell script in the Run folder: `.\run_main.ps1`.
 
-**Note:** This will open 1 extra window to run flask app, where an user input is required for the open weather api key, please insert before moving to check functionality.
+`Note: (Important)` This will open 1 extra window to run flask app, where an user input is required for the `open weather api key`, please insert before moving to check functionality.
 
 ### Running on Linux/windows
 

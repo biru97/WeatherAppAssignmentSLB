@@ -21,13 +21,16 @@ Weather Application with AQI
 
 1. Run the PowerShell script in the Run folder: `.\run_main.ps1`.
 
+**Note:** This will open 1 extra window to run flask app, where an user input is required for the open weather api key, please insert before moving to check functionality.
+
 ### Running on Linux/windows
 
 #### Flask Server
 
 1. Go to the `weather-app-server` folder.
 2. Run `pip install -r requirements.txt` to install dependencies.
-3. Run `python ./OpenWeatherProxyApp.py` to start the server (will start on port 4000).
+3. Add Environment Variable with name `OPEN_WEATHER_API_KEY`, the value will be the open weather api key.
+4. Run `python ./OpenWeatherProxyApp.py` to start the server (will start on port 4000).
 
 **Note:** For Unit Tests, navigate to `/weather-app-server/tests` and run `python ./AppUnittest.py`.
 

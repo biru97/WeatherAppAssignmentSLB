@@ -1,0 +1,18 @@
+.textSuccess{
+    color: rgb(98, 196, 1);
+}
+.textInfo {
+  color: rgb(1, 97, 1);
+}
+.textSecondary {
+  color: rgb(209, 209, 0);
+}
+.textWarning {
+  color: orange;
+}
+.textError {
+  color: Red;
+}
+.textPrimary {
+  color: blue;
+}

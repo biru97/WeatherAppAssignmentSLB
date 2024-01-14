@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 interface WeatherStatLoc {
@@ -48,10 +49,11 @@ const WeatherStat = ({ location }: WeatherStatLoc) => {
             <div className="stat-figure text-primary">
               <div className="avatar">
                 <div className="w-16 rounded-full">
-                  <img
+                  <Image
                     src={`https://openweathermap.org/img/wn/${
                       weatherData?.weather?.icon || "01d"
                     }@2x.png`}
+                    alt="weather icon"
                   />
                 </div>
               </div>

@@ -64,7 +64,7 @@ if __name__ == "__main__":
     #user 1 checks all the books out
     for book in book_library:
         book.set_checked({"name": user1.name, "id": user1.id})
-        user1.set_checked_books(book) #can be named meaning fully as check_out books
+        user1.set_checked_books(book) #can be named meaningfully as check_out_book()
     
     #user 2 tries to check out 1 of the books
     try:

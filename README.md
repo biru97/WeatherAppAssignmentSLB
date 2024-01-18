@@ -38,5 +38,5 @@ Weather Application with AQI
 
 1. Go to the `weather-app` folder.
 2. Run `npm install` to install dependencies.
-3. Run `npm build` to build the application.
+3. Run `npm run build` to build the application.
 4. Run `npm start` to start the application (will start on the default port 3000).

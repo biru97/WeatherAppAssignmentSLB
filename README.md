@@ -1,4 +1,4 @@
-# WeatherAppAssignmentSLB
+# WeatherAppAssignment
 Weather Application with AQI
 
 ## Setup Instructions
